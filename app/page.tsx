@@ -17,7 +17,7 @@ export default function Home() {
       <div className='grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 gap-8 grid-flow-dense'>
         {certs.map((cert) => (
           <Link href={`/Certifications/${cert.id}`} key={cert.id}>
-            <Card className='bg-violet-100 text-violet-800 dark:bg-slate-900 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col md:min-h-[420px] lg:min-h-[380px] xl:min-h-[410px] hover:scale-110 transition-all duration-700'>
+            <Card className='bg-violet-100 text-violet-800 dark:bg-slate-900 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col md:min-h-[420px] lg:min-h-[380px] xl:min-h-[410px] hover:scale-105 transition-all duration-700'>
               <CardHeader>
                 <CardTitle className='text-2xl md:text-lg lg:text-base'>
                   {cert.title}
