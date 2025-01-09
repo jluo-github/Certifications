@@ -1,6 +1,6 @@
 ## name
 
-Please visit https://my-certifications-app.vercel.app/ for details.
+Please visit [My Certifications](https://my-certifications-app.vercel.app/)for details.
 
 ## Skills and Tools Used
 
