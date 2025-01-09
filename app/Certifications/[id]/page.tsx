@@ -26,11 +26,11 @@ const CertDetailPage = async (props: { params: Params }) => {
     <div className='md:px-20 lg:px-28'>
       <Link
         href='/'
-        className='text-xl hover:font-bold text-violet-800 dark:text-violet-200  '>
+        className='text-xl hover:font-bold text-violet-800 dark:text-violet-200'>
         Back to Home
       </Link>
 
-      <Card className='bg-violet-100 text-violet-800 dark:bg-slate-800 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col justify-center my-8'>
+      <Card className='bg-violet-100 text-violet-800 dark:bg-slate-900 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col justify-center my-8'>
         <CardHeader>
           <CardTitle className='text-center my-8'>{certDetail.title}</CardTitle>
         </CardHeader>

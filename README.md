@@ -1,13 +1,13 @@
 ## name
 
-Please visit []() for details.
+Please visit https://my-certifications-app.vercel.app/ for details.
 
 ## Skills and Tools Used
 
 - **Next.js:** Used for server-side rendering and routing.
 - **React:** Used for building the frontend of the website.
 - **TypeScript:** Added for type safety and improving code quality.
-- **Shadcn-ui:** Implemented for designing and developing UI components. 
+- **Shadcn-ui:** Implemented for designing and developing UI components.
 - **Jest:** Utilized for unit testing.
 - **GitHub Actions:** Utilized for automating CI/CD workflows.
 
@@ -21,7 +21,7 @@ Please visit []() for details.
 npx shadcn@latest init
 
 npx shadcn@latest add button card dropdown-menu input label separator textarea toast skeleton sonner
- 
+
 npm install next-themes
 
 npm i react-icons
@@ -31,8 +31,8 @@ npm i react-icons
 ### jest
 
 ```
- npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom ts-node @testing-library/user-event ts-jest jest-fixed-jsdom @types/jest 
+ npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom ts-node @testing-library/user-event ts-jest jest-fixed-jsdom @types/jest
 
 npm init jest@latest
- 
+
 ```
