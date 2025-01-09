@@ -1,6 +1,6 @@
 ## name
 
-Please visit [My Certifications](https://my-certifications-app.vercel.app/)for details.
+Please visit [My Certifications](https://my-certifications-app.vercel.app/) for details.
 
 ## Skills and Tools Used
 
@@ -11,7 +11,7 @@ Please visit [My Certifications](https://my-certifications-app.vercel.app/)for d
 - **Jest:** Utilized for unit testing.
 - **GitHub Actions:** Utilized for automating CI/CD workflows.
 
-### shadcn
+### Shadcn
 
 [shadcn](https://ui.shadcn.com/)
 [Themes](https://ui.shadcn.com/themes)
@@ -28,7 +28,7 @@ npm i react-icons
 
 ```
 
-### jest
+### Jest
 
 ```
  npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom ts-node @testing-library/user-event ts-jest jest-fixed-jsdom @types/jest
