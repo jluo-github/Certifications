@@ -32,10 +32,7 @@ const CertDetailPage = async (props: { params: Params }) => {
 
       <Card className='bg-violet-100 text-violet-800 dark:bg-slate-900 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col justify-center my-8'>
         <CardHeader>
-          <CardTitle className='text-center my-8'>{certDetail.title}</CardTitle>
-        </CardHeader>
-
-        <CardContent className=' '>
+          <CardTitle className='text-center my-8'>{certDetail.title}</CardTitle>{" "}
           <Image
             src={certDetail.image}
             alt={certDetail.title}
@@ -43,6 +40,10 @@ const CertDetailPage = async (props: { params: Params }) => {
             width='700'
             className='shadow-xl shadow-violet-300 dark:shadow-xl dark:shadow-slate-400/[0.5] w-full rounded-md object-cover'
           />
+        </CardHeader>
+
+        <CardContent className='text-xl font-semibold leading-9'>
+          {certDetail.description}
         </CardContent>
       </Card>
     </div>
