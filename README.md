@@ -1,4 +1,4 @@
-## name
+## My Certifications
 
 Please visit [My Certifications](https://my-certifications-app.vercel.app/) for details.
 
@@ -7,6 +7,7 @@ Please visit [My Certifications](https://my-certifications-app.vercel.app/) for 
 - **Next.js:** Used for server-side rendering and routing.
 - **React:** Used for building the frontend of the website.
 - **TypeScript:** Added for type safety and improving code quality.
+- **Tailwind CSS:** Used for rapidly styling the user interface with utility classes.
 - **Shadcn-ui:** Implemented for designing and developing UI components.
 - **Jest:** Utilized for unit testing.
 - **GitHub Actions:** Utilized for automating CI/CD workflows.

@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className='flex flex-col justify-center gap-4 '>
+    <main className='flex flex-col justify-center gap-4 py-8 '>
       <h1 className='text-center mb-8 md:mb-20'>Certifications</h1>
 
       <div className='grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 gap-8 grid-flow-dense'>

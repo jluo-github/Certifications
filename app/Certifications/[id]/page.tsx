@@ -23,7 +23,7 @@ const CertDetailPage = async (props: { params: Params }) => {
   const [certDetail]: CertType[] = certs.filter((cert) => cert.id === id.toString());
 
   return (
-    <div className='md:px-20 lg:px-28'>
+    <div className='py-6 md:px-20 lg:px-28'>
       <Link
         href='/'
         className='text-xl hover:font-bold text-violet-800 dark:text-violet-200'>
@@ -32,7 +32,7 @@ const CertDetailPage = async (props: { params: Params }) => {
 
       <Card className='bg-violet-100 text-violet-800 dark:bg-slate-900 dark:text-violet-200 shadow-lg shadow-violet-300 dark:shadow-slate-400 border-none flex flex-col justify-center my-8'>
         <CardHeader>
-          <CardTitle className='text-center my-8'>{certDetail.title}</CardTitle>{" "}
+          <CardTitle className='text-center text-lg my-8'>{certDetail.title}</CardTitle>{" "}
           <Image
             src={certDetail.image}
             alt={certDetail.title}
@@ -42,7 +42,7 @@ const CertDetailPage = async (props: { params: Params }) => {
           />
         </CardHeader>
 
-        <CardContent className='text-xl font-semibold leading-9'>
+        <CardContent className='text-default leading-relaxed md:text-xl font-semibold md:leading-9'>
           {certDetail.description}
         </CardContent>
       </Card>
