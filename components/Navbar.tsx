@@ -13,6 +13,7 @@ const Navbar = () => {
 
       <div className='flex gap-6 mr-4 items-center'>
         <Link
+        aria-label="Navigate to github"
           href='https://github.com/jluo-github'
           target='_blank'
           className='bg-transparent'>
@@ -20,6 +21,7 @@ const Navbar = () => {
         </Link>
 
         <Link
+        aria-label="Navigate to linkedin"
           href='https://linkedin.com/in/jluo23'
           target='_blank'
           className='bg-transparent'>
