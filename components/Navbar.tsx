@@ -16,14 +16,14 @@ const Navbar = () => {
           href='https://github.com/jluo-github'
           target='_blank'
           className='bg-transparent'>
-          <SiGithub className='w-9 h-9 hover:scale-110 active:scale-95 transition-all shadow-xl shadow-violet-400 bg-transparent' />
+          <SiGithub className='w-9 h-9 hover:scale-110 active:scale-95 transition-all shadow-xl shadow-violet-400 bg-transparent rounded-full' />
         </Link>
 
         <Link
           href='https://linkedin.com/in/jluo23'
           target='_blank'
           className='bg-transparent'>
-          <FaLinkedin className='bg-transparent w-9 h-9 hover:scale-110 active:scale-95 transition-all shadow-xl shadow-violet-400' />
+          <FaLinkedin className='bg-transparent w-9 h-9 hover:scale-110 active:scale-95 transition-all shadow-xl shadow-violet-400 rounded-lg' />
         </Link>
 
         <DarkModeToggle />
